@@ -32,7 +32,7 @@ header{ /*fondo celeste donde monito*/
 }
 
 .menu{
-  padding: 0 29px;
+  padding: 0 17px;
   overflow: auto;
   background-color: #1C163E;
 }
@@ -58,8 +58,8 @@ header{ /*fondo celeste donde monito*/
 /*seccion 2*/
 
 .container2{
-	height: 470px;
-	background-color: #4DD1FF;
+	height: 517px;
+	background-color: #4BB792;
 }
 
 .monito{
@@ -68,4 +68,34 @@ header{ /*fondo celeste donde monito*/
 	padding: 129px 0 0 0;
 	display: block;
 	margin: 0 auto;
+}
+
+.textbajostart{
+	color: whitesmoke;
+	text-align: center;
+}
+
+.tit2{
+	color: whitesmoke;
+	text-align: center;
+}
+
+.h2Port{
+	text-align: center;	
+	color: black;
+	font-size: 30px;
+}
+
+.linea{
+	width: 116px;
+	height: 4px;
+	background-color: whitesmoke;
+}
+
+/*seccion 3*/
+
+.imgSec3{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
 }
