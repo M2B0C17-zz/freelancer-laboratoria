@@ -2,51 +2,51 @@
  * Estilos de tu proyecto
  */
  * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
   /* Establece la fuente de Google aquí */
-  font-family: 'Montserrat', sans-serif;
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.71429;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.71429;
 }
 
 /*codigos*/
 header{ /*fondo celeste donde monito*/
-  position: fixed;
-  background: #4DD1FF;
-  width: 100%;
-  top: 0;
-  color: whitesmoke;
+    position: fixed;
+    background: #4DD1FF;
+    width: 100%;
+    top: 0;
+    color: whitesmoke;
 }
 
 .menu{
-  padding: 0 17px;
-  overflow: auto;
-  background-color: #1C163E;
+    padding: 0 17px;
+    overflow: auto;
+    background-color: #1C163E;
 }
 
 .link{
-  color: whitesmoke;
-  text-decoration: none;
-  margin: 19px 9px;
-  display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 19px 9px;
+    display: inline-block;
 }
 
 .link:hover{
-  background-color: #4DD1FF;
-  height: 0;
+	background-color: #4DD1FF;
+	height: 0;
 }
 
 .t{
@@ -98,4 +98,47 @@ header{ /*fondo celeste donde monito*/
     width: 100%;
     height: auto;
     cursor: pointer;
+}
+
+.container3A{
+    padding: 80px 40px 0 40px;
+}
+
+#secAbj{
+	padding: 0 40px 100px 40px;
+}
+
+/*seccion 4*/
+.container4A{
+	height: 300px;
+	background-color: #4BB792;
+	color: whitesmoke;
+}
+
+.parraf1{
+	padding: 0 0 40px 200px;
+}
+
+.parraf2{
+	padding: 0 200px 40px 0;
+}
+
+.h2About{
+	color: whitesmoke;
+	text-align: center;
+	font-size: 30px;
+	padding: 32px 0 0 0;
+}
+
+.link4{
+	color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+	text-align: center;
+	border-style: solid;
+    border-bottom-color: whitesmoke;
+    width: 235px;
+    height: 38px;
+    padding: 2px 0 0 0;
+    margin-left: 40%;
 }
