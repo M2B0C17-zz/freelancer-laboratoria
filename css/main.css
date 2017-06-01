@@ -1,6 +1,7 @@
 /*
  * Estilos de tu proyecto
  */
+
  * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -20,6 +21,7 @@ body {
     margin: 0 auto;
     font-size: 16px;
     line-height: 1.71429;
+    padding-top: 55px; /*espaciado entre menu y la siguiente seccion*/
 }
 
 /*codigos*/
@@ -27,69 +29,78 @@ header{ /*fondo celeste donde monito*/
     position: fixed;
     background: #4DD1FF;
     width: 100%;
-    top: 0;
+    top: 0; /*para que se coloque lo más alto de la página siempre*/
     color: whitesmoke;
 }
 
 .menu{
-    padding: 0 17px;
     overflow: auto;
     background-color: #1C163E;
+    display: flex;
+    flex-direction: row; /*para que sea una fila*/
+    justify-content: space-around; /*espacio entre los enlaces y el "titulo"*/
+    align-items: center;
 }
 
 .link{
     color: whitesmoke;
     text-decoration: none;
-    margin: 19px 9px;
-    display: inline-block;
+    background-color: #1C163E;
 }
 
 .link:hover{
-	background-color: #4DD1FF;
-	height: 0;
-}
-
-.t{
-	float: left;
-	padding: 15px;
-	margin: 0 760px 0 0;
+	  background-color: #4BB792;
+	  height: 27px;
+    width: auto;
 }
 
 /*seccion 2*/
 
 .container2{
-	height: 517px;
-	background-color: #4BB792;
+	  height: 517px;
+	  background-color: #4BB792;
 }
 
 .monito{
-	width: 180px;
-	display: block; /*margin y display para centrar y bajar un poquito*/
-	padding: 129px 0 0 0;
-	display: block;
-	margin: 0 auto;
+	  width: 180px;
+	  display: block; /*margin y display para centrar y bajar un poquito*/
+	  padding: 129px 0 0 0;
+	  display: block;
+  	margin: 0 auto;
 }
 
 .textbajostart{
-	color: whitesmoke;
-	text-align: center;
+    color: whitesmoke;
+    text-align: center;
 }
 
 .tit2{
-	color: whitesmoke;
-	text-align: center;
+    color: whitesmoke;
+    text-align: center;
 }
 
 .h2Port{
-	text-align: center;	
-	color: black;
-	font-size: 30px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
 }
 
 .linea{
-	width: 116px;
-	height: 4px;
-	background-color: whitesmoke;
+    width: 88px;
+    height: 4px;
+    background-color: whitesmoke;
+    margin: 4px 6px 0px 6px;
+}
+
+.lineaEstrellita{
+  display: flex;
+  flex-direction: row; /*para que sea una fila*/
+  align-items: center;
+  padding: 0 42%;
+}
+
+#start1{
+  color: whitesmoke;
 }
 
 /*seccion 3*/
@@ -105,37 +116,55 @@ header{ /*fondo celeste donde monito*/
 }
 
 #secAbj{
-	padding: 0 40px 100px 40px;
+    padding: 0 40px 100px 40px;
+}
+
+.lineaEstrellitaBlack{
+  display: flex;
+  flex-direction: row; /*para que sea una fila*/
+  align-items: center;
+  padding: 0 42%;
+}
+
+.linea2{
+    width: 88px;
+    height: 4px;
+    background-color: black;
+    margin: 4px 6px 0px 6px;
+}
+
+#start2{
+  color: black;
 }
 
 /*seccion 4*/
 .container4A{
-	height: 300px;
-	background-color: #4BB792;
-	color: whitesmoke;
+	  height: 300px;
+	  background-color: #4BB792;
+	  color: whitesmoke;
 }
 
 .parraf1{
-	padding: 0 0 40px 200px;
+	  padding: 0 0 0 200px;
 }
 
 .parraf2{
-	padding: 0 200px 40px 0;
+	  padding: 0 200px 0 0;
 }
 
 .h2About{
-	color: whitesmoke;
-	text-align: center;
-	font-size: 30px;
-	padding: 32px 0 0 0;
+    color: whitesmoke;
+    text-align: center;
+	  font-size: 30px;
+    padding: 32px 0 0 0;
 }
 
 .link4{
-	color: whitesmoke;
+    color: whitesmoke;
     text-decoration: none;
     display: inline-block;
-	text-align: center;
-	border-style: solid;
+    text-align: center;
+    border-style: solid;
     border-bottom-color: whitesmoke;
     width: 235px;
     height: 38px;
