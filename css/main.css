@@ -46,6 +46,7 @@ header{ /*fondo celeste donde monito*/
     color: whitesmoke;
     text-decoration: none;
     background-color: #1C163E;
+    text-align: center;
 }
 
 .link:hover{
@@ -79,11 +80,10 @@ header{ /*fondo celeste donde monito*/
     text-align: center;
 }
 
-.h2Port{
-    text-align: center;
-    color: black;
-    font-size: 30px;
+.textS2{
+    font-size: 13px;
 }
+
 
 .linea{
     width: 88px;
@@ -93,17 +93,24 @@ header{ /*fondo celeste donde monito*/
 }
 
 .lineaEstrellita{
-  display: flex;
-  flex-direction: row; /*para que sea una fila*/
-  align-items: center;
-  padding: 0 42%;
+    display: flex;
+    flex-direction: row; /*para que sea una fila*/
+    align-items: center;
+    padding: 0 42%;
 }
 
 #start1{
-  color: whitesmoke;
+    color: whitesmoke;
+    font-size: 20px;
 }
 
 /*seccion 3*/
+
+.h2Port{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
 
 .imgSec3{
     width: 100%;
@@ -120,10 +127,10 @@ header{ /*fondo celeste donde monito*/
 }
 
 .lineaEstrellitaBlack{
-  display: flex;
-  flex-direction: row; /*para que sea una fila*/
-  align-items: center;
-  padding: 0 42%;
+    display: flex;
+    flex-direction: row; /*para que sea una fila*/
+    align-items: center;
+    padding: 0 42%;
 }
 
 .linea2{
@@ -134,7 +141,8 @@ header{ /*fondo celeste donde monito*/
 }
 
 #start2{
-  color: black;
+    color: black;
+    font-size: 20px;
 }
 
 /*seccion 4*/
@@ -156,7 +164,12 @@ header{ /*fondo celeste donde monito*/
     color: whitesmoke;
     text-align: center;
 	  font-size: 30px;
-    padding: 32px 0 0 0;
+    padding: 1px 0 0 0;
+}
+
+#start3{
+    color: whitesmoke;
+    font-size: 20px;
 }
 
 .link4{
@@ -170,4 +183,82 @@ header{ /*fondo celeste donde monito*/
     height: 38px;
     padding: 2px 0 0 0;
     margin-left: 40%;
+}
+
+#hastaAbajo{
+  margin: 0 8px 0 0;
+}
+
+/*seccion 5*/
+
+#start4{
+    color: black;
+    font-size: 20px;
+}
+
+.textulio{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+/* Formularito */
+.container5A{
+    max-width: 450px;
+    height: auto;
+    margin: 5% auto;
+    padding-bottom: 16px; /* 1rem equivale a 16px */
+}
+
+.registro{
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.botonsitos2{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 16px;
+}
+
+.input, .botonSubmit{
+    background-color: #1C163E;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: solid #4BB792 0;
+}
+
+.botonSubmit{
+    width: 14%;
+    border-bottom: none;
+    background-color: #4BB792;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.botonSubmit:hover{
+    background-color: #1C163E;
+}
+
+/* SECCION 6 */
+
+.container6A{
+    height: 517px;
+    background-color: #1C163E;
+}
+
+.PenFin{
+    color: whitesmoke;
+}
+
+.textulito{
+    text-align: center;
+}
+
+.textulitoP{
+    text-align: center;
+    font-size: 13px;
 }
